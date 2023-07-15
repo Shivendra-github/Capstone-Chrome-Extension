@@ -66,11 +66,91 @@ justify-content: space-between;
 
 }
 
+.middle-container{
+
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #time{
 
 display: flex;
 justify-content: center;
 
 
+
+
+}
+
+.bitcoin-contain{
+
+    display: flex;
+   
+    align-items: center;
+    gap: 5px;
+    
+
+
+}
+
+
+.bitcoin-container{
+
+
+   
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+      
+
+
+
+
+}
+
+#Crypto{
+
+text-shadow: 0px 0px 20px #aaaaaa;
+font-size: 1.3rem;
+
+
+}
+/* 
+ul li{
+
+list-style: none;
+margin: 0;
+
+} */
+
+.bitcoin-details p{
+
+margin:0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+#time{
+
+    font-size: 60px;
+    font-weight: 400
+
+
+}
+
+
+
+
+h1,h2{
+
+    margin: 5px;
 
 }
