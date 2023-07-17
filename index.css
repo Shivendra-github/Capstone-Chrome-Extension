@@ -1,7 +1,6 @@
 html,
 body {
   margin: 0;
-  
 }
 
 body {
@@ -74,56 +73,36 @@ main {
     border: 2px solid black;
 } */
 
-#Weather{
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-
-
-
-
-
+#Weather {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.weather-temp{
-
-    font-size: 2rem;
-
-
+.weather-temp {
+  font-size: 2rem;
 }
 
-.weather-city{
-
-align-self: flex-end;
-
+.weather-city {
+  align-self: flex-end;
 }
 
-#Weather p{
-
-    margin: 0;
+#Weather p {
+  margin: 0;
 }
 
-#degree{
-
-    display: flex;
-    align-items: center;
-    max-height: 50px;
+#degree {
+  display: flex;
+  align-items: center;
+  max-height: 50px;
 }
 
-#innerweather{
-
-
-
-
+#innerweather {
 }
 
-#Weather p{
-
-    margin: 0;
+#Weather p {
+  margin: 0;
 }
-
 
 /* 
 ul li{
@@ -143,26 +122,11 @@ margin: 0;
 #time {
   font-size: 400%;
   font-weight: lighter;
-/* }
+}
 
-@media (max-width:400px){
-
-
-    #Weather{
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-       
-        /* max-height: 50px; */
-        
-        
-        } 
-
-
-
-} */
+#degree > image {
+  width: 70px;
+}
 
 @media (max-width: 700px) {
   #time {
