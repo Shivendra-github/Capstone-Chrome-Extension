@@ -1,124 +1,130 @@
-html,body{
-
-    margin: 0;
-    padding: 0;
-
-
+html,
+body {
+  margin: 0;
+  
 }
 
-body{
+body {
+  background: no-repeat center center fixed;
+  -webkit-background-szie: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-
-    background: no-repeat center center fixed;
-    -webkit-background-szie: cover;
-    -moz-background-size: cover;
-    -o-background-size:cover;
-    background-size: cover;
-
-    color: white;
-    text-shadow: 0px 0px 20px #aaaaaa;
-    font-family: Arial, Helvetica, sans-serif;
-
-
-
-
+  color: white;
+  text-shadow: 0px 0px 20px #aaaaaa;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-*{
-
-box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
-
-#author{
-
-
-}
+/* 
+#author {
+} */
 
 /* *{border: solid 2px red;} */
 
-
-
-main{
-
-height: 100vh;
-padding: 15px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-justify-content: space-between;
-
-
-
-
-
+main {
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.Cryp-Weath{
-
-
-    display: flex;
-    justify-content: space-between;
-
-
-
-
-
+.Cryp-Weath {
+  display: flex;
+  justify-content: space-between;
 }
 
-.middle-container{
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  
+#time {
+  display: flex;
+  justify-content: center;
+}
+
+.bitcoin-contain {
+  display: flex;
+
+  align-items: center;
+  gap: 5px;
+}
+
+.bitcoin-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#Crypto {
+  text-shadow: 0px 0px 20px #aaaaaa;
+  font-size: 1.3rem;
+}
+
+/* #Weather *{
+
+    border: 2px solid black;
+} */
+
+#Weather{
+
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#time{
-
-display: flex;
-justify-content: center;
-
-
-
-
-}
-
-.bitcoin-contain{
-
-    display: flex;
-   
-    align-items: center;
-    gap: 5px;
     
 
 
+
+
+
 }
 
+.weather-temp{
 
-.bitcoin-container{
+    font-size: 2rem;
 
 
-   
+}
+
+.weather-city{
+
+align-self: flex-end;
+
+}
+
+#Weather p{
+
+    margin: 0;
+}
+
+#degree{
+
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    
-      
+    align-items: center;
+    max-height: 50px;
+}
+
+#innerweather{
 
 
 
 
 }
 
-#Crypto{
+#Weather p{
 
-text-shadow: 0px 0px 20px #aaaaaa;
-font-size: 1.3rem;
-
-
+    margin: 0;
 }
+
+
 /* 
 ul li{
 
@@ -127,30 +133,56 @@ margin: 0;
 
 } */
 
-.bitcoin-details p{
-
-margin:0;
-display: flex;
-justify-content: center;
-align-items: center;
-
-
+.bitcoin-details p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#time {
+  font-size: 400%;
+  font-weight: lighter;
+/* }
 
-#time{
-
-    font-size: 60px;
-    font-weight: 400
+@media (max-width:400px){
 
 
+    #Weather{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       
+        /* max-height: 50px; */
+        
+        
+        } 
+
+
+
+} */
+
+@media (max-width: 700px) {
+  #time {
+    font-size: 200%;
+    font-weight: lighter;
+  }
 }
 
+@media (max-width: 1000px) {
+  #time {
+    font-size: 450%;
+    font-weight: lighter;
+  }
+}
 
+h1,
+h2 {
+  margin: 5px;
+}
 
-
-h1,h2{
-
-    margin: 5px;
-
+p {
+  font-size: 1.3rem;
 }
